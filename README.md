@@ -3,13 +3,13 @@ This project analyzes factors influencing stress levels using SQL.
 It leverages a structured anxiety attack dataset with attributes like sleep hours, physical activity, caffeine intake, heart rate, and more.
 
 ## Key Features
-###Data Cleaning & Exploration: 
+### Data Cleaning & Exploration: 
 Handling missing values, checking data distribution, and ensuring consistency.
-###Trend Analysis: 
+### Trend Analysis: 
 Identifying correlations between stress levels and lifestyle factors.
-###Statistical Insights: 
+### Statistical Insights: 
 Computing averages, variance, and detecting anomalies in stress levels.
-###Optimization Queries: 
+### Optimization Queries: 
 Using SQL queries to extract meaningful insights efficiently.
 
 ## Technologies Used
