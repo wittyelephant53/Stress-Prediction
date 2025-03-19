@@ -14,8 +14,6 @@ FROM [dbo].[anxiety_attack_dataset]
 GROUP BY Stress_Level  
 ORDER BY Stress_Level;
 
--- Missing & null values:
-
 -- Average sleep hours for each stress level:
 SELECT Stress_Level, ROUND(AVG(Sleep_Hours),2) AS Avg_Sleep_Hours  
 FROM anxiety_attack_dataset 
@@ -50,7 +48,7 @@ SELECT Occupation, SUM(Stress_Level) AS Sum_Stress, AVG(Stress_Level) AS Avg_Str
 FROM anxiety_attack_dataset  
 GROUP BY Occupation  
 ORDER BY Sum_Stress DESC  
--- We could see that people who don't have jobs might have the higher total stress levels
+-- We could see that people who don't have jobs might have higher total stress levels
 
 -- Heart Rate and Breathing Rate vs Stress Level
 SELECT Stress_Level, 
